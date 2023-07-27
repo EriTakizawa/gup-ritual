@@ -1,0 +1,154 @@
+.container{
+    background-image: url("line.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 690px;
+    height: 330px;
+}
+
+.container-section{
+    background-color: #293775; 
+    width: 330px;
+    height: 380px;
+    border: 1px solid black;
+}
+
+.white{
+    color: white;
+}
+
+.size{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+del{
+    color: grey;
+    font-size: 20px;
+}
+
+ins{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.container-sectionTwo{
+    background-color: #A30040;
+    border: red;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}   
+
+.left{
+    transform: skewX(left -14deg);
+}
+
+.section, .one{
+    transform: skewX(-14deg);
+}
+
+.straight{
+    transform: skewX(14deg);
+    margin-left: 50px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-box{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #293775;
+}
+.btn{
+   margin-left: 0;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #A30040;
+   border: 2px solid #A30040;
+   color: white;
+   width: 25%;
+}
+
+.btnRitual{
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #A30040;
+    background-color: white;
+    color: #A30040;
+    width: 25%;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #5f6997;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+}
+
+.two{
+    background-color: white;
+}
+
+.what{
+    display: flex;
+}
+
+.picture, .complect{
+   transform: skewX(14deg); 
+}
+
+.picture{
+    margin-left: -80px;
+    margin-top: -20px;
+
+}
+
+h3{
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.box{
+    background-color: white;
+    transform: skewX(-14deg);
+}
+
+li, ul{
+    padding: 5px;
+    color: #5f6997;
+    font-size: 13px;
+}
+
+.btnSlider{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+    
+}
+
+
+    
+
+
+
+
